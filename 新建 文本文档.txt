@@ -1,0 +1,4 @@
+nacos
+C:\Users\JASON>E:
+cd E:\nacos\nacos\bin
+.\startup.cmd -m standalone

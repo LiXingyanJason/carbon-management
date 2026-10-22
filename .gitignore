@@ -1,0 +1,63 @@
+# Local working directories and teaching materials
+/tmp/
+/碳中和数字碳资产管理系统/
+/.tools/
+
+# Environment and service configuration
+.env
+.env.*
+*.yml
+*.yaml
+*.properties
+*.conf
+*.ini
+*.toml
+
+# Frontend build, lint, test and runtime configuration
+*.config.js
+*.config.cjs
+*.config.mjs
+*.config.ts
+.editorconfig
+.eslintignore
+.eslintrc*
+.prettierignore
+.prettierrc*
+.babelrc*
+.browserslistrc
+.npmrc
+.yarnrc*
+jsconfig*.json
+tsconfig*.json
+/carbon-before/public/config.js
+/carbon-before/src/config/
+/carbon-before/src/settings.js
+
+# IDE configuration
+.idea/
+.vscode/
+*.iml
+.settings/
+.classpath
+.project
+
+# ChainMaker configuration and certificates
+crypto-config/
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Dependencies, build output and logs
+node_modules/
+target/
+dist/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep build manifests, lockfiles, Java configuration classes and Mapper XML.
